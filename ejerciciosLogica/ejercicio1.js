@@ -1,6 +1,7 @@
-let number = 162;
+let number = 11;
 
-function siguientePalindromo (num) {
+function next_pal (num) {
+  num++;
     while (!palindromo(num)){
         num++;
     }
@@ -21,4 +22,4 @@ function palindromo (num) {
  }
 
 
-siguientePalindromo(number);
+next_pal(number);
